@@ -567,11 +567,124 @@ color: gray;
 padding: 0.3rem;
 font-size: 15px;
 color: gray;
-
 }
+
+
 
 
 .news-link{
   text-decoration: underline;
   color: #1f306e;
+}
+
+
+.footer-container {
+  background-color:#ffffff;
+  padding: 20px;
+  max-width: 100%;
+  
+  
+}
+
+/* Style for the footer */
+.footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+
+.filter-text{
+  color: #777;
+  font-weight: bold;
+}
+
+
+.footer-top{
+  display: flex;
+  flex-direction: row;
+
+}
+
+/* Style for the logo */
+.comp-logo {
+  margin-bottom: 20px;
+  width: 32%;
+  
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  max-width:150px;
+ 
+}
+
+/* Style for the social icons */
+.social {
+  margin-top: 10px;
+}
+
+.social-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.social-icon {
+  max-width: 20px;
+}
+
+/* Style for the footer grid */
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 63%;
+}
+
+.footer-grid-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-grid-heading {
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.footer-links-list {
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem ;
+  
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #777;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+/* Style for the copyright section */
+.footer-copyright {
+  background-color: #FF6150;
+  color: #fff;
+  padding: 10px;
 }
